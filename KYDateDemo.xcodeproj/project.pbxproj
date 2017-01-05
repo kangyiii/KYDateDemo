@@ -13,6 +13,7 @@
 		7315F2D81E1DF23C001D7A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7315F2D61E1DF23C001D7A17 /* Main.storyboard */; };
 		7315F2DA1E1DF23C001D7A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7315F2D91E1DF23C001D7A17 /* Assets.xcassets */; };
 		7315F2DD1E1DF23C001D7A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7315F2DB1E1DF23C001D7A17 /* LaunchScreen.storyboard */; };
+		7315F2E71E1DF280001D7A17 /* NSDate+Ky.m in Sources */ = {isa = PBXBuildFile; fileRef = 7315F2E61E1DF280001D7A17 /* NSDate+Ky.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7315F2D91E1DF23C001D7A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7315F2DC1E1DF23C001D7A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7315F2DE1E1DF23C001D7A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7315F2E51E1DF280001D7A17 /* NSDate+Ky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ky.h"; sourceTree = "<group>"; };
+		7315F2E61E1DF280001D7A17 /* NSDate+Ky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Ky.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		7315F2CC1E1DF23C001D7A17 /* KYDateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7315F2E41E1DF280001D7A17 /* KYDate */,
 				7315F2D01E1DF23C001D7A17 /* AppDelegate.h */,
 				7315F2D11E1DF23C001D7A17 /* AppDelegate.m */,
 				7315F2D31E1DF23C001D7A17 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				7315F2CE1E1DF23C001D7A17 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7315F2E41E1DF280001D7A17 /* KYDate */ = {
+			isa = PBXGroup;
+			children = (
+				7315F2E51E1DF280001D7A17 /* NSDate+Ky.h */,
+				7315F2E61E1DF280001D7A17 /* NSDate+Ky.m */,
+			);
+			path = KYDate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7315F2E71E1DF280001D7A17 /* NSDate+Ky.m in Sources */,
 				7315F2D51E1DF23C001D7A17 /* ViewController.m in Sources */,
 				7315F2D21E1DF23C001D7A17 /* AppDelegate.m in Sources */,
 				7315F2CF1E1DF23C001D7A17 /* main.m in Sources */,
