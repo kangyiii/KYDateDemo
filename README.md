@@ -1,13 +1,5 @@
-对NSDate扩展了一些方法
+#对NSDate扩展了一些方法
 ```
-//
-//  NSDate+Ky.h
-//  ZTEPark
-//
-//  Created by 易之盛 on 16/9/19.
-//  Copyright © 2016年 康义. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface NSDate (Ky)
