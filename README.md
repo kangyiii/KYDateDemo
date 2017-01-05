@@ -1,9 +1,5 @@
 #对NSDate扩展了一些方法
 ```
-#import <Foundation/Foundation.h>
-
-@interface NSDate (Ky)
-
 /**
  获取指定年月日时分秒的NSDate
  
@@ -116,9 +112,5 @@
  @return 年月日 + 当前时分秒 2016-02-02 16:46:03
  */
 + (NSString *)spliceTime:(NSString *)time;
-
-
-
-@end
 
 ```
